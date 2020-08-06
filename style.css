@@ -1,0 +1,77 @@
+#slider {
+    background-image: url("biography-bg.png");
+}
+
+#nev {
+    background-color: aliceblue;
+}
+
+#spbox {
+    text-align: center;
+    box-shadow: 7px 7px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(60deg, yellow, pink);
+    transition: .6s;
+}
+
+#spbox:hover {
+    background: linear-gradient(45deg, rgb(194, 159, 159), rgb(48, 48, 155));
+    color: white;
+}
+
+#cata {
+    text-align: center;
+}
+
+#copy {
+    text-align: center;
+}
+
+.F_end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+
+.F_end small {
+    font-family: monospace;
+    font-size: 35px;
+}
+
+li {
+    margin: 0px 15px;
+}
+
+@media(min-width: 320px) {
+    .lastimg {
+        width: 300px;
+    }
+}
+
+@media(max-width: 425px) {
+    .lastimg {
+        width: 300px;
+    }
+}
+
+@media(min-width: 430px) {
+    .lastimg {
+        width: 500px;
+    }
+}
+
+@media(min-width: 990px) {
+    #navbarNav {
+        margin-left: 450px;
+    }
+}
+
+@media(min-width: 1200px) {
+    #navbarNav {
+        margin-left: 620px;
+    }
+}
